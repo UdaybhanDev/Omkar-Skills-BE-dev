@@ -2,7 +2,9 @@ using AuthService.Controllers;
 using AuthService.Interface;
 using AuthService.Model;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Xml.Linq;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +33,7 @@ builder.Services.AddAuthentication(option =>
     };
 });
 
-
+builder.Services.AddDbContext<localDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddTransient<IAuthService,AuthService.Service.AuthService>();

@@ -1,4 +1,4 @@
-﻿namespace AuthService.Controllers.Model
+﻿namespace AuthService.Model
 {
     public class LoginRequest
     {
