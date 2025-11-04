@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project-Development\\Training-Program\\AuthService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\model\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:model\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\controllers\\authserviceexternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:controllers\\authserviceexternal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\model\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:model\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\model\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:model\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\controllers\\model\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:controllers\\model\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|c:\\project-development\\training-program\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDAE8EA3-087C-4979-A3D5-87305D7D0BBF}|AuthService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthServiceExternal.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Controllers\\AuthServiceExternal.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthServiceExternal.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Controllers\\AuthServiceExternal.cs",
+              "RelativeToolTip": "Controllers\\AuthServiceExternal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:56:44.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthService.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Service\\AuthService.cs",
+              "RelativeToolTip": "Service\\AuthService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T09:56:39.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T09:48:01.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T01:39:35.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Interface\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interface\\IAuthService.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Interface\\IAuthService.cs",
+              "RelativeToolTip": "Interface\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T09:56:03.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Model\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Model\\JwtSettings.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Model\\JwtSettings.cs",
+              "RelativeToolTip": "Model\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:22:07.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Model\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "Model\\TokenResponse.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Model\\TokenResponse.cs",
+              "RelativeToolTip": "Model\\TokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T15:22:09.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Controllers\\Model\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Controllers\\Model\\LoginRequest.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Controllers\\Model\\LoginRequest.cs",
+              "RelativeToolTip": "Controllers\\Model\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T09:53:08.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\Model\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Model\\RefreshToken.cs",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\Model\\RefreshToken.cs",
+              "RelativeToolTip": "Model\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:43:34.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Project-Development\\Training-Program\\AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Project-Development\\Training-Program\\AuthService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T02:59:26.056Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
