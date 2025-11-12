@@ -1,5 +1,6 @@
 ﻿using AuthService.Interface;
 using AuthService.Model;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -14,14 +15,17 @@ namespace AuthService.Service
         // This simulates a database table of refresh tokens
         private static readonly List<RefreshToken> _refreshTokens = new();
         private static readonly List<UserRecord> _users = new();
-        public AuthService(IConfiguration config)
+        private localDbContext _ctx;
+        public AuthService(IConfiguration config, localDbContext context)
         {
             _config = config;
+            _ctx = context;
         }
 
         public TokenResponse Authenticate(string username, string password)
         {
-            if (username != "Admin" || password != "Password@123")
+            RegisterDTO user = _ctx.registerDTOs.Where(x => x.UserName == username && x.Password==password).FirstOrDefault();
+            if (user==null)
             {
                 return null;
             }
@@ -131,6 +135,19 @@ namespace AuthService.Service
             };
 
             _users.Add(user);
+           using (_ctx.Database.BeginTransaction())
+            {
+                try
+                {
+                    _ctx.registerDTOs.Add(registerDTO);
+                    _ctx.SaveChanges();
+                }
+                catch (Exception x)
+                {   
+                    _ctx.Database.RollbackTransaction();
+                }
+                _ctx.Database.CommitTransaction();
+            }
 
             // Issue tokens for the new user
             var accessToken = GenerateJwtToken(user.UserName);
@@ -146,13 +163,16 @@ namespace AuthService.Service
         }
 
         // New: return public user list (no secrets)
-        public IEnumerable<UserDto> GetAllUsers()
-        {
-            return _users.Select(u => new UserDto
+        public IEnumerable<UserDto> GetAllUsers() 
+        { 
+            IEnumerable<UserRecord> extraList= _ctx.registerDTOs.Select( x=> new UserRecord { UserName = x.UserName, Email=x.Email }).ToList();
+            _users.AddRange(extraList);
+            List<UserDto> data = _users.Select(u => new UserDto
             {
                 UserName = u.UserName,
                 Email = u.Email
-            }).ToList();
+            }).DistinctBy(x=>x.UserName).ToList();
+            return data;
         }
 
         private static string HashPassword(string password, string saltBase64)
